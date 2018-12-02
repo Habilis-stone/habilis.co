@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="44px" viewBox="0 0 30 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>phone-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Habilis" transform="translate(-203.000000, -11920.000000)">
+            <g id="Group-23" transform="translate(145.000000, 11540.000000)">
+                <g id="Group-18" transform="translate(58.047619, 354.857143)">
+                    <g id="phone-icon" transform="translate(0.000000, 25.000000)">
+                        <rect id="Rectangle-13-Copy" fill="#4A90E2" opacity="0.181046196" x="0" y="5.66666667" width="25.1904762" height="38.3333333" rx="4.92857143"></rect>
+                        <path d="M25.1904762,3.47619048 L25.1904762,1.28571429 L8.76190476,1.28571429 L8.76190476,3.47619048 C8.76190476,5.29084037 10.2329692,6.76190476 12.047619,6.76190476 L21.9047619,6.76190476 C23.7194118,6.76190476 25.1904762,5.29084037 25.1904762,3.47619048 Z" id="Path" fill="#174D92"></path>
+                        <rect id="Rectangle-13" stroke="#174D92" stroke-width="1.64285714" x="5.20238095" y="1.01190476" width="23.547619" height="36.6904762" rx="4.92857143"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
