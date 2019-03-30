@@ -2,7 +2,7 @@
 require_once "Mail-1.2.0/Mail.php";
  
 $from = "estimates@habilis.co"; // required
-$to = "estimates@habilis.co";
+$to = "tonnyma@gmail.com";
 $subject = "Habilis Contact Form Inquiry";
 
 $first_name = $_POST['name']; // required
