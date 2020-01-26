@@ -1,35 +1,11 @@
 <?php
-require_once "Mail-1.2.0/Mail.php";    
-    
-if (isset($_POST['g-recaptcha-response'])) {
-    $captcha = $_POST['g-recaptcha-response'];
-} else {
-    $captcha = false;
-}
+require_once "Mail-1.2.0/Mail.php";
+ 
 
-if (!$captcha) {
-    //Do something with error
-    echo "moo";
-} else {
-    $secret   = '6LfHVn4UAAAAAE7UvficOtDa63F5diW5Y_ARVAXQ';
-    $response = file_get_contents(
-        "https://www.google.com/recaptcha/api/siteverify?secret=" . $secret . "&response=" . $captcha . "&remoteip=" . $_SERVER['REMOTE_ADDR']
-    );
-    // use json_decode to extract json response
-    $response = json_decode($response);
-    print $response;
-
-    if ($response->success === false) {
-        //Do something with error
-        echo "second error";
-    }
-}
-
-//... The Captcha is valid you can continue with the rest of your code
-//... Add code to filter access using $response . score
 $from = "estimates@habilis.co"; // required
 $to = "tonnyma@gmail.com";
 $subject = "Habilis Contact Form Inquiry";
+
 $first_name = $_POST['name']; // required
 $telephone = $_POST['tel']; // not required
 $comments = $_POST['project']; // required
@@ -122,11 +98,5 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 }
 ?>
 
-<?php
-if ($response->success==true && $response->score <= 0.5) {
-    //Do something to denied access
-    echo "denied";
-}
-?>
-
+ 
  

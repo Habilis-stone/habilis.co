@@ -2126,6 +2126,14 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/index working-backup copy.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/content/index working-backup copy.html",
+		"oF": 0
+		},
 	"/index.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -2140,6 +2148,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/content/index3.html",
+		"oF": 0
+		},
+	"/insert working-backup.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/content/insert working-backup.php",
 		"oF": 0
 		},
 	"/insert.php": {
@@ -2430,7 +2446,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "/favicon/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 575681481.84188104
+	"lastBuiltDate": 601693983.52169502
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
